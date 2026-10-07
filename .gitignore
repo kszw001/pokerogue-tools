@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local backups / dumps (containing user data)
+*_backup_*.json
+pokerogue_system_*.json
+pokerogue_session_*.json
+sessionData*.prsv
+data_*.json
+
+# Node (in case someone adds tooling later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
